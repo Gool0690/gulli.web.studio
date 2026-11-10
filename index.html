@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Gulli Web Studio — создание современных сайтов для бизнеса, образования и личных проектов.">
+<meta name="theme-color" content="#11152b">
+<title>Gulli Web Studio — Your idea. Our design.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="#home"><span class="brand-mark">G</span><span>GULLI <b>WEB STUDIO</b></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">☰</button>
+  <nav id="nav">
+    <a href="#services" data-i="navServices">Услуги</a><a href="#portfolio" data-i="navPortfolio">Портфолио</a>
+    <a href="#pricing" data-i="navPricing">Цены</a><a href="#about" data-i="navAbout">Обо мне</a><a href="#contact" data-i="navContact">Контакты</a>
+  </nav>
+  <div class="header-actions"><button class="lang" id="langBtn">ҚАЗ</button><a class="small-cta" href="#contact" data-i="navDiscuss">Обсудить проект ↗</a></div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-glow"></div><div class="hero-content">
+    <p class="eyebrow"><span></span><span data-i="heroEyebrow">ВЕБ-ДИЗАЙН И СОЗДАНИЕ САЙТОВ</span></p>
+    <h1 data-i="heroTitle">Ваш бизнес<br>заслуживает <em>сильный сайт.</em></h1>
+    <p class="hero-copy" data-i="heroCopy">Создаю современные, понятные и адаптивные сайты, которые помогают представить ваш бизнес в интернете и привлекать клиентов.</p>
+    <div class="hero-buttons"><a class="btn primary" href="#contact" data-i="heroBtn">Обсудить мой сайт <span>↗</span></a><a class="text-link" href="#portfolio" data-i="heroWork">Смотреть работы ↓</a></div>
+    <div class="hero-note"><span class="note-line"></span><span data-i="heroNote">От идеи до готового сайта — с заботой о каждой детали.</span></div>
+  </div>
+  <div class="hero-art" aria-label="Абстрактная иллюстрация веб-дизайна">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="glass-card main-glass"><div class="glass-top"><span></span><span></span><span></span><b>gulli.studio</b></div><div class="mock-title"></div><div class="mock-title short"></div><div class="mock-pill"></div><div class="mock-grid"><i></i><i></i><i></i></div><div class="mock-bottom"></div></div>
+    <div class="float-tag tag-one">✦ Thoughtful design</div><div class="float-tag tag-two">↗ Mobile first</div><div class="sparkle">✳</div>
+  </div>
+  <div class="hero-bottom"><span>BASED IN KAZAKHSTAN</span><span>WORKING WORLDWIDE</span><span>DESIGN · DEVELOPMENT · DIGITAL</span></div>
+</section>
+<section class="intro section">
+  <p class="eyebrow dark"><span></span><span data-i="introLabel">ВАШ ПАРТНЁР В ЦИФРОВОМ МИРЕ</span></p>
+  <div class="intro-grid"><h2 data-i="introTitle">Не просто сайт.<br><em>Ваше лицо</em> в интернете.</h2><p data-i="introCopy">Каждый проект начинается с вашей идеи. Я помогаю превратить её в удобный и красивый сайт, который рассказывает о вас, ваших услугах и ценности для клиентов.</p></div>
+</section>
+<section class="section services" id="services">
+  <div class="section-head"><div><p class="eyebrow dark"><span></span><span data-i="servicesLabel">ЧТО Я ДЕЛАЮ</span></p><h2 data-i="servicesTitle">Решения для <em>вашего роста</em></h2></div><p data-i="servicesSub">Подбираю формат сайта под задачу, аудиторию и бюджет.</p></div>
+  <div class="service-grid" id="servicesGrid"></div>
+</section>
+<section class="portfolio section" id="portfolio">
+  <div class="section-head"><div><p class="eyebrow"><span></span><span data-i="portfolioLabel">ИЗБРАННЫЕ ПРОЕКТЫ</span></p><h2 data-i="portfolioTitle">Работы и <em>концепции</em></h2></div><p data-i="portfolioSub">Реальный проект и демонстрационные концепции дизайна.</p></div>
+  <div class="portfolio-grid" id="portfolioGrid"></div>
+</section>
+<section class="pricing section" id="pricing">
+  <div class="section-head"><div><p class="eyebrow dark"><span></span><span data-i="pricingLabel">ПОНЯТНЫЕ УСЛОВИЯ</span></p><h2 data-i="pricingTitle">Выберите свой <em>формат</em></h2></div><p data-i="pricingSub">Стоимость ориентировочная. Итоговая цена зависит от объёма и функций проекта.</p></div>
+  <div class="price-grid" id="priceGrid"></div>
+</section>
+<section class="about section" id="about">
+  <div class="about-symbol">G<span>✦</span></div><div class="about-copy"><p class="eyebrow"><span></span><span data-i="aboutLabel">ЗНАКОМСТВО</span></p><h2 data-i="aboutTitle">За каждым сайтом<br>стоит <em>человек.</em></h2><p data-i="aboutCopy">Я — создатель Gulli Web Studio. Мой путь в цифровые проекты начался с собственного образовательного сайта. Теперь я помогаю предпринимателям, специалистам и небольшим организациям создавать своё пространство в интернете.</p><p class="about-sign">Gulmira <span>— Gulli Web Studio</span></p></div>
+</section>
+<section class="contact section" id="contact">
+  <div class="contact-left"><p class="eyebrow"><span></span><span data-i="contactLabel">ДАВАЙТЕ НАЧНЁМ</span></p><h2 data-i="contactTitle">Расскажите<br>о своей <em>идее.</em></h2><p data-i="contactCopy">Напишите мне — обсудим задачу, подходящий формат и следующие шаги.</p><a class="contact-wa" href="https://wa.me/77765255250" target="_blank" rel="noopener">WhatsApp <span>↗</span></a><p class="phone">+7 776 525 52 50</p></div>
+  <form id="contactForm" class="contact-form"><label><span data-i="formName">Ваше имя</span><input name="name" required placeholder="Имя"></label><label><span data-i="formContact">Телефон или email</span><input name="contact" required placeholder="+7 ... / email"></label><label><span data-i="formType">Какой сайт вам нужен?</span><select name="type"><option value="Бизнес-сайт">Бизнес-сайт</option><option value="Landing page">Landing page</option><option value="Образовательный сайт">Образовательный сайт</option><option value="Интернет-магазин">Интернет-магазин</option><option value="Другое">Другое</option></select></label><label><span data-i="formMessage">Кратко о проекте</span><textarea name="message" rows="4" placeholder="Расскажите о вашей идее..."></textarea></label><button class="btn primary submit" type="submit"><span data-i="formSend">Отправить в WhatsApp</span><span>↗</span></button><p class="form-hint" data-i="formHint">Нажимая кнопку, вы откроете WhatsApp с подготовленным сообщением.</p></form>
+</section>
+</main>
+<footer><a class="brand footer-brand" href="#home"><span class="brand-mark">G</span><span>GULLI <b>WEB STUDIO</b></span></a><span>© <span id="year"></span> Gulli Web Studio</span><a href="#home" data-i="backTop">Наверх ↑</a><button class="admin-open" id="adminOpen" title="Редактирование">⚙</button></footer>
+<div class="toast" id="toast" role="status"></div>
+<div class="admin-modal" id="adminModal" aria-hidden="true"><div class="admin-panel"><button class="close-admin" id="closeAdmin">×</button><p class="eyebrow dark">LOCAL CONTENT EDITOR</p><h2>Редактирование сайта</h2><p class="admin-warning">Изменения сохраняются в памяти этого браузера на этом устройстве. Для постоянного обновления опубликованного сайта потребуется изменить файлы и загрузить их заново.</p><label>Пароль редактора<input id="adminPassword" type="password" placeholder="Введите пароль"></label><button class="btn primary" id="unlockAdmin">Войти</button><div id="editor" hidden><label>Услуги и портфолио — JSON<textarea id="contentEditor" rows="16"></textarea></label><button class="btn primary" id="saveContent">Сохранить изменения</button><button class="btn outline" id="resetContent">Сбросить к исходному содержимому</button><p class="admin-warning">Демо-пароль: gulli2026. Обязательно замените его в файле script.js перед публикацией. Этот редактор не является защищённой серверной админ-панелью.</p></div></div></div>
+<script src="script.js"></script>
+</body></html>
